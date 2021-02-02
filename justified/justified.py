@@ -41,7 +41,7 @@ it. But even this wears off in time.
 
 
 def main():
-    print KnuthPlassFormatter(DEMO_WIDTH).format(MOBY)
+    print(KnuthPlassFormatter(DEMO_WIDTH).format(MOBY))
 
 
 class KnuthPlassFormatter(object):
